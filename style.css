@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 header{
 	background-color: #00849E;
 }
@@ -89,7 +89,7 @@ ul {
 	border-style:solid;
 	position: absolute;
 	z-index: 0;
-	padding:50px;
+	padding:3%;
 }
 img {
 	float: right;
@@ -99,8 +99,8 @@ img {
 	width:40%;
 }
 .hello {	
-	font-family: 'Great Vibes', cursive;
-	font-size:30px;
+	font-family: 'Solitreo', cursive;
+	font-size:25px;
 	text-align: justify;
 	margin:0 400px 0 0;
 }
@@ -112,6 +112,10 @@ img {
 	font-family: Arial;
 	font-size:25px;
 	color: #9F2937;
+	
+	
+	
+	
 }
 #text2{
 	color: #719D13;
