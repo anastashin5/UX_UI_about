@@ -91,18 +91,16 @@ ul {
 	z-index: 0;
 	padding:3%;
 }
-img {
-	float: right;
-}
 .photo{
-	height:340px;
-	width:40%;
+	height: 340px;
+	width: 40%;
+	float: right;
 }
 .hello {	
 	font-family: 'Solitreo', cursive;
 	font-size:25px;
 	text-align: justify;
-	margin:0 400px 0 0;
+	margin:0 45% 0 0;
 }
 
 #text1, #text2, #text3, #text4{
@@ -112,10 +110,6 @@ img {
 	font-family: Arial;
 	font-size:25px;
 	color: #9F2937;
-	
-	
-	
-	
 }
 #text2{
 	color: #719D13;
