@@ -8,29 +8,22 @@ header{
 	vertical-align: bottom;
 	color: white;
 	padding: 1%;
-	
 }
-
 .logo{
     width: 5%;
 }
-
 nav {
 	width: 73%;
 	padding: 1%;
 }
-
 ul {
 	width: 50%;
 	margin-left: auto;
-	
 }
-
 .heroImg {
 	height: 700px;
 	padding: 35px;
 }
-
 .contact {
 	width: 55%;
 	height:400px;
