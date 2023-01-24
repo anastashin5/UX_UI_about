@@ -9,6 +9,17 @@ header{
 	color: white;
 	padding: 1%;
 }
+
+#inline-bl:hover {
+	rotate: z -20deg;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	color:white;
+}
+
 .logo{
     width: 5%;
 }
