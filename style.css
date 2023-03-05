@@ -1,36 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
 header{
 	background-color: #00849E;
+	padding:10px;
+	width:100%;
+	height:150px;
 }
 
-.inline-block{
-	display: inline-block;
-	vertical-align: bottom;
+.inline-bl{
 	color: white;
-	padding: 1%;
+	text-align: right;
+	margin:1%;
+}
+.inline-bl li {
+	list-style: none;
+	display: inline;
+	padding:20px;
+	font-size: 20px;
 }
 
-#inline-bl:hover {
-	rotate: z -20deg;
-}
-
-a {
+.inline-bl a{
 	outline: none;
 	text-decoration: none;
 	color:white;
 }
 
-.logo{
-    width: 5%;
+.inline-logo{
+	float:left;
+	margin:10px 0 10px 30px;
 }
-nav {
-	width: 73%;
-	padding: 1%;
-}
-ul {
-	width: 50%;
-	margin-left: auto;
-}
+
 .heroImg {
 	height: 700px;
 	padding: 35px;
@@ -155,4 +154,22 @@ ul {
 footer {
 	background-color: #00849E;
 	padding: 1%;
+	width:100%;
 }
+
+div {
+    text-align: center;
+}
+
+div ul {
+    display: inline-block;
+	color: white;
+}
+
+div li {
+    float:left;
+	display: inline;
+	padding:30px;
+}
+
+
