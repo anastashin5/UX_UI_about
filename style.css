@@ -26,6 +26,15 @@ header{
 	color:white;
 }
 
+#SV a{
+	text-decoration: none;
+	color:white;
+}
+
+#SV:hover {
+	rotate: z -10deg;
+}
+
 .inline-logo{
 	float:left;
 	margin:10px 0 10px 30px;
@@ -170,8 +179,9 @@ article.accordion section h2{
 }
 
 .hello{
+
 	margin-right:450px;
-	font-family: 'Sofia', cursive;
-	font-size:19px;
+	font-family: 'Solitreo', cursive;
+	font-size:22px;
 	text-align: justify;
 }

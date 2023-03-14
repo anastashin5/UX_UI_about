@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+
+header{
+	background-color: #00849E;
+	padding:10px;
+	width:100%;
+	height:150px;
+}
+
+.inline-bl{
+	color: white;
+	text-align: right;
+	margin:1%;
+}
+
+.inline-bl li {
+	list-style: none;
+	display: inline;
+	padding:20px;
+	font-size: 20px;
+}
+
+.inline-bl a{
+	outline: none;
+	text-decoration: none;
+	color:white;
+}
+
+#SV a{
+	text-decoration: none;
+	color:white;
+}
+
+#SV:hover {
+	rotate: z -10deg;
+}
+
+.inline-logo{
+	float:left;
+	margin:10px 0 10px 30px;
+}
+
+.heroImg {
+	min-height: 650px;
+	padding: 35px;
+}
+
+.contact {
+	width: 55%;
+	height:400px;
+	margin: 200px 0 0 400px;
+	background-color: #F7EEEF;
+	border-width:2px;
+	border-color: #9F2937;
+	border-style:solid;
+	position: absolute;
+	z-index: 0;
+  	transition: transform 1s linear;
+	transform-style: preserve-3D;
+	transform-origin: top left;
+}
+
+.hobbies {
+	width: 55%;
+	height:400px;
+	margin: 150px 0 0 340px;
+	background-color: #F4F7EC;
+	border-width:2px;
+	border-color: #719D13;
+	border-style:solid;
+	position: absolute;
+	z-index: 0;
+  	transition: transform 1s linear;
+	transform-style: preserve-3D;
+	transform-origin: top left;
+}
+
+.skills {
+	width: 55%;
+	height:400px;
+	margin: 100px 0 0 280px;
+	background-color: #F7F0FF;
+	border-width:2px;
+	border-color: #9747FF;
+	border-style:solid;
+	position: absolute;
+	z-index: 0;
+  	transition: transform 1s linear;
+	transform-style: preserve-3D;
+	transform-origin: top left;
+	font-size: 12px;
+}
+
+.education {
+	width: 55%;
+	height:400px;
+	margin: 50px 0 0 220px;
+	background-color: #ffffff;
+	border-width:2px;
+	border-color: #C27320;
+	border-style:solid;
+	position: absolute;
+	z-index: 0;
+  	transition: transform 1s linear;
+	transform-style: preserve-3D;
+	transform-origin: top left;
+}
+
+.iam {
+	width: 55%;
+	height:400px;
+	margin: 0 0 0 160px;
+	background-color: #EBF5F7;
+	border-width:2px;
+	border-color: #00849E;
+	border-style:solid;
+	position: absolute;
+	z-index: 0;
+}
+
+.photo{
+	width: 40%;
+	float: right;
+}
+
+.hello {	
+	font-family: 'Solitreo', cursive;
+	font-size: 1.5vw; /* 1,5% от viewport */
+	text-align: justify;
+	margin:0 45% 0 0;
+}
+
+#text1{
+	color: #9F2937;
+}
+
+#text2{
+	color: #719D13;
+}
+
+#text3{
+	color: #9747FF;
+}
+
+#text4{
+	color: #C27320;
+}
+
+.fbox {
+  $size: 10rem;
+  display: flex;
+
+  &-aside {
+    display: block;
+    width: $size;
+  }
+
+  &-content {
+    flex: 1;
+  }
+}
+
+.fbox-content{
+	padding: 30px;
+	width: 90%;
+	text-align: left;
+}
+
+.fbox-aside{
+	writing-mode: vertical-rl;
+	float: right;
+	font-family: Arial;
+	font-size:25px;
+}
+
+body{
+	margin: 0;
+}
+
+footer {
+	background-color: #00849E;
+	padding: 1%;
+	width:100%;
+}
+
+div {
+    text-align: center;
+}
+
+div ul {
+    display: inline-block;
+	color: white;
+}
+
+div li {
+    float:left;
+	display: inline;
+	padding:30px;
+}
+
+.bring-into-focus {
+    transform: scale(1.4);
+}
